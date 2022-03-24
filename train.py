@@ -6,8 +6,8 @@ import math
 import numpy as np
 
 # Values
-run_name = "resnet"
-run_id = 5
+run_name = "hrnetocr"
+run_id = 0
 
 # Model
 # model = H.segmenter(
@@ -18,11 +18,11 @@ run_id = 5
 #     n_channels=1,
 #     n_classes=4
 # )
-model = H.resnet18(
-    capacity=64,
-    n_classes=4,
-    in_channels=1
-)
+# model = H.resnet18(
+#     capacity=64,
+#     n_classes=4,
+#     in_channels=1
+# )
 # model = H.UNet(
 #     capacity=64,
 #     n_classes=4,
@@ -37,6 +37,9 @@ model = H.resnet18(
 #     num_classes=4,
 #     resnet_version='resnet34',
 # )
+model = H.hrnet_ocr(
+    config_path="helper_pytorch/models/HRNet_OCR/hrnetocr_git_submodule/configs/cityscapes/H_SEGFIX.json"
+)
 
 # Dataloaders
 train_dataset = Dataset(
