@@ -146,5 +146,5 @@ Forked and modified from <a href="https://github.com/rstrudel/segmenter">github<
 
 <h2>HRNet + OCR + SegFix</h2>
 
-Forked and modified from <a href="https://github.com/openseg-group/openseg.pytorch"github</a>
+Forked and modified from <a href="https://github.com/openseg-group/openseg.pytorch">github</a>
 
