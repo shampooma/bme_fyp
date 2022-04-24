@@ -126,14 +126,25 @@ This project used different networks and have some modifications
 
 <h2>CENet</h2>
 
-Forked from <a href="https://github.com/David-zaiwang/Image_segmentation_framework.git">github</a>
-
-Changed input channels to 1
+Forked and modified from <a href="https://github.com/David-zaiwang/Image_segmentation_framework.git">github</a>
 
 <h2>UNet</h2>
 
-<a href="https://github.com/milesial/Pytorch-UNet">github</a>
+Forked and modified from <a href="https://github.com/milesial/Pytorch-UNet">github</a>
 
-Changed batch normalization to group normalization
+<h2>UACANet</h2>
 
+Copy and modified from <a href="https://github.com/plemeri/UACANet">github</a>
+
+<h2>ResNet</h2>
+
+Modified from <a href="https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py">github</a>
+
+<h2>Segmenter</h2>
+
+Forked and modified from <a href="https://github.com/rstrudel/segmenter">github</a>
+
+<h2>HRNet + OCR + SegFix</h2>
+
+Forked and modified from <a href="https://github.com/openseg-group/openseg.pytorch"github</a>
 
